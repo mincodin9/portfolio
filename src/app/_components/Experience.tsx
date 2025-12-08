@@ -1,0 +1,9 @@
+import styles from "../_styles/experience.module.css"
+
+export default function Experience() {
+  return(
+    <div className={styles.container}>
+      <h1>Experience</h1>
+    </div>
+  );
+}

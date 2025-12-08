@@ -1,0 +1,10 @@
+.container {
+  background-color: lime;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  min-height: 50vh;
+  padding-top: 100px;
+  margin: auto;
+}

@@ -1,0 +1,14 @@
+.container {
+  background-color: lightcoral;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  min-height: 100vh;
+  padding-top: 200px;
+  margin: auto;
+}
+.title {
+  font-size: 48px;
+  color: white;
+}

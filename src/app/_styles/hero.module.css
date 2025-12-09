@@ -1,14 +1,79 @@
+.heroSection {
+  scroll-margin-top: 100px;
+  width: 100%;
+}
 .container {
   background-color: lightcoral;
+  background: none;
   align-items: center;
   display: flex;
   flex-direction: column;
   width: 90%;
   min-height: 100vh;
-  padding-top: 200px;
+  padding-top: 150px;
   margin: auto;
+}
+.canvasAnimation {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 50px;
+  background-color: thistle;
+  border-radius: 25px;
 }
 .title {
   font-size: 48px;
+}
+.greeting {
+  font-weight: normal;
+  color: #B0CE88;
+}
+.titleName {
+  font-weight: bold;
+  color: #8AA624;
+}
+.cursorBlink {
+  animation: blink 1s step-start 0s infinite;
+  color: #8AA624;
+}
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.subtitle {
+  font-size: 24px;
+  color: #B0CE88;
+  margin-top: 10px;
+}
+.ctaButtons {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+.ctaButtonPrimary {
+  background-color: #8AA624;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  }
+  .ctaButtonPrimary:hover {
+    background-color: #729E1E;
+  }
+.ctaButtonSecondary {
+  background-color: transparent;
+  color: #8AA624;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 2px solid #8AA624;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.ctaButtonSecondary:hover {
+  background-color: #8AA624;
   color: white;
 }

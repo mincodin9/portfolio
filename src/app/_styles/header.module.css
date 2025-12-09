@@ -1,5 +1,5 @@
 .container {
-  background-color: #9CC6DB;
+  background-color: #FFFFF0;
   height: 50px;
   display: inline-flex;
   align-items: center;
@@ -14,7 +14,7 @@
   margin: 0;
   padding: 20px;
   white-space: nowrap;
-  color: #CF4B00;
+  color: #8AA624;
 }
 .variousButtons {
   display: flex;
@@ -30,19 +30,45 @@
 }
 .mainButton {
   padding: 8px 16px;
-  color: #CF4B00;
+  color: #8AA624;
   font-weight: bold;
   background: none;
   border: none;
   cursor: pointer;
 }
+.mainButton:hover {
+  text-decoration: underline;
+}
+.contactInfo {
+  display: flex;
+  align-items: center;
+}
 .contactButton {
-  margin: 5px;
-  padding: 5px 5px;
-  background-color: #CF4B00;
-  font-size: 10px;
-  color: #FCF6D9;
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 50%;
+  background: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   border: none;
-  border-radius: 25px;
   cursor: pointer;
+  text-decoration: none;
+}
+.contactButton:hover{
+  background-color: #DBE4C9;
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+.contactButtonDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  font-size: 10px;
+  font-weight: 200;
 }

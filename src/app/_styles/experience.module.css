@@ -1,3 +1,7 @@
+.experienceSection {
+  scroll-margin-top: 100px;
+  width: 100%;
+}
 .container {
   background-color: lime;
   align-items: center;

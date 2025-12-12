@@ -12,6 +12,11 @@ export default function Hero() {
         <div className={styles.subtitle}>
           <span>I turn complexity into clarity.</span>
         </div>
+        <div className={styles.description}>
+          <span>
+            I turn creative ideas into real, scalable solutions by breaking complex projects into manageable tasks.
+          </span>
+        </div>
         <div className={styles.ctaButtons}>
           <a href="#projects" className={styles.ctaButtonPrimary}>See My Work</a>
           <a href="/test_resume.pdf" className={styles.ctaButtonSecondary}>Resume</a>

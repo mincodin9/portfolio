@@ -21,14 +21,14 @@
   border-radius: 25px;
 }
 .title {
-  font-size: 48px;
+  font-size: 86px;
 }
 .greeting {
   font-weight: normal;
   color: #B0CE88;
 }
 .titleName {
-  font-weight: bold;
+  font-weight: 600;
   color: #8AA624;
 }
 .cursorBlink {
@@ -44,9 +44,16 @@
   }
 }
 .subtitle {
-  font-size: 24px;
+  font-size: 48px;
   color: #B0CE88;
   margin-top: 10px;
+}
+.description {
+  font-size: 22px;
+  color: #B0CE88;
+  margin-top: 20px;
+  max-width: 600px;
+  text-align: center;
 }
 .ctaButtons {
   margin-top: 30px;
@@ -59,7 +66,7 @@
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 10px;
-  font-weight: bold;
+  font-weight: normal;
   }
   .ctaButtonPrimary:hover {
     background-color: #729E1E;
@@ -71,7 +78,7 @@
   text-decoration: none;
   border: 2px solid #8AA624;
   border-radius: 10px;
-  font-weight: bold;
+  font-weight: normal;
 }
 .ctaButtonSecondary:hover {
   background-color: #8AA624;

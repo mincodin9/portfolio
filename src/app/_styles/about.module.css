@@ -1,14 +1,48 @@
 .aboutSection {
-  scroll-margin-top: 100px;
+  padding-top: 100px;
   width: 100%;
 }
 .container {
-  background-color: lightgreen;
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
   min-height: 50vh;
-  padding-top: 100px;
   margin: auto;
+}
+.aboutHeader {
+  align-self: flex-start;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-top: 20px;
+  color: darkgreen;
+  font-weight: 600;
+}
+.aboutContent {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 1000px;
+  display:flex;
+  color: #B8DB80;
+}
+.aboutImage {
+  min-width: 250px;
+  height: 350px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding-top: 30px
+}
+.aboutImage img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.aboutText {
+  padding: 10px 0px 40px 40px;
+  text-align: left;
+  font-size: 1.1rem;
+  color: #8BAE66;
 }

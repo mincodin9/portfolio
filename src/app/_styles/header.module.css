@@ -7,10 +7,15 @@
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
 .title {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 600;
   margin: 0;
   padding: 20px;
   white-space: nowrap;
@@ -31,7 +36,7 @@
 .mainButton {
   padding: 8px 16px;
   color: #8AA624;
-  font-weight: bold;
+  font-weight: normal;
   background: none;
   border: none;
   cursor: pointer;

@@ -3,7 +3,6 @@
   width: 100%;
 }
 .container {
-  background-color: lightcoral;
   background: none;
   align-items: center;
   display: flex;
@@ -25,15 +24,15 @@
 }
 .greeting {
   font-weight: normal;
-  color: #B0CE88;
+  color: #8AA624;
 }
 .titleName {
   font-weight: 600;
-  color: #8AA624;
+  color: #EDA35A;
 }
 .cursorBlink {
   animation: blink 1s step-start 0s infinite;
-  color: #8AA624;
+  color: #EDA35A;
 }
 @keyframes blink {
   0%, 100% {

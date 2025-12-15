@@ -16,7 +16,7 @@
   margin-bottom: 20px;
   text-align: left;
   padding-top: 20px;
-  color: darkgreen;
+  color: #8AA624;
   font-weight: 600;
 }
 .aboutContent {
@@ -25,14 +25,14 @@
   text-align: center;
   max-width: 1000px;
   display:flex;
-  color: #B8DB80;
+  color: #B0CE88;
 }
 .aboutImage {
   min-width: 250px;
   height: 350px;
   border-radius: 10px;
   margin-bottom: 20px;
-  padding-top: 30px
+  padding-top: 15px
 }
 .aboutImage img {
   width: 100%;
@@ -41,8 +41,32 @@
   object-fit: cover;
 }
 .aboutText {
-  padding: 10px 0px 40px 40px;
+  padding: 20px 0px 40px 40px;
   text-align: left;
   font-size: 1.1rem;
-  color: #8BAE66;
+  color: #B0CE88;
+}
+.aboutIntroText {
+  margin-bottom: 20px;
+}
+.techList {
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+.techLists {
+  display: grid;
+  grid-template-columns: repeat(2, 0.3fr);
+  gap: 0px 10px;
+  list-style: none;
+  margin-bottom: 20px;
+}
+.techListItems {
+  position: relative;
+  font-size: 1rem;
+}
+.techListItems::before {
+  content: "▸ ";
+  font-weight: bold;
+  color: #EDA35A;
+  line-height: 1.4;
 }

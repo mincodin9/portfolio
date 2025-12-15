@@ -3,12 +3,26 @@
   width: 100%;
 }
 .container {
-  background-color: lime;
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
   min-height: 50vh;
-  padding-top: 100px;
   margin: auto;
+}
+.experienceHeader {
+  align-self: flex-start;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-top: 20px;
+  color: #8AA624;
+  font-weight: 600;
+}
+.experienceContent {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 1000px;
+  display:flex;
 }

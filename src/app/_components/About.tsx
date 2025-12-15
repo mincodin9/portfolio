@@ -12,19 +12,29 @@ export default function About() {
             <img src="/profile.jpg" alt="Profile Picture" />
           </div>
           <div className={styles.aboutText}>
-            <p>
-              I’m an entry-level software engineer based in South Korea,
-              seeking opportunities in Australia, with a strong foundation
-              in computer science and hands-on experience in full-stack development.
-              <br /><br />
+            <div className={styles.introText}>
+              <span>
+                I’m an entry-level software engineer based in South Korea,
+                seeking opportunities in Australia, with a strong foundation
+                in computer science and hands-on experience in full-stack development.
+              </span>
+            </div>
+            <div className={styles.techList}>
               Here are some technologies I’ve been using in my recent projects:
-              <br /><br />
-              ▸ React&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▸ Next.js<br />
-              ▸ Typescript&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▸ JavaScript<br />
-              ▸ React-Native&nbsp;&nbsp;&nbsp;&nbsp;▸ Expo<br />
-              ▸ Java&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▸ C#<br /><br />
+            </div>
+            <ul className={styles.techLists}>
+              <li className={styles.techListItems}>React</li>
+              <li className={styles.techListItems}>Next.js</li>
+              <li className={styles.techListItems}>Typescript</li>
+              <li className={styles.techListItems}>JavaScript</li>
+              <li className={styles.techListItems}>React-Native</li>
+              <li className={styles.techListItems}>Expo</li>
+              <li className={styles.techListItems}>Java</li>
+              <li className={styles.techListItems}>C#</li>
+            </ul>
+            <div className={styles.personalInterests}>
               Outside of work, I'm interested in working out, doing ballet and yoga, and reading books on many kinds of topics.
-            </p>
+            </div>
           </div>
         </div>
       </div>

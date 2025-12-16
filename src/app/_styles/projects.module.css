@@ -3,12 +3,102 @@
   width: 100%;
 }
 .container {
-  background-color: deeppink;
-  align-items: center;
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
   min-height: 100vh;
-  padding-top: 100px;
   margin: auto;
+}
+.projectsHeader {
+  align-self: flex-start;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-top: 20px;
+  color: #8AA624;
+  font-weight: 600;
+}
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+  padding-top: 40px;
+  gap: 30px 20px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.projectCard {
+  background-color: #EDA35A;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+.projectCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+.projectOverlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #FFFFFF;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  padding: 20px;
+}
+.OverlayHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.projectTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.githubLink {
+  width: fit-content;
+  height: fit-content;
+
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 50%;
+  background: #EBF4DD;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.githubLink:hover{
+  background-color: #EDA35A;
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+.projectDescription {
+  font-size: 1rem;
+}
+.projectTechStack {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 0.9rem;
 }

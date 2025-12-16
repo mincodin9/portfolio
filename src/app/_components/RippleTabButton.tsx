@@ -23,7 +23,7 @@ export default function RippleTabButton({
     const x = `${e.clientX - rect.left}px`;
     const y = `${e.clientY - rect.top}px`;
 
-        const old = btn.querySelector(`.${styles.ripple}`);
+    const old = btn.querySelector(`.${styles.ripple}`);
     if (old) old.remove();
 
     const span = document.createElement("span");

@@ -46,12 +46,12 @@ export default function ProjectsHighlightTabs() {
               "Not decided yet"}
             </p>
           </div>
-          <Link
+          {/* <Link
             href={active === "highlight1" ? "" : active === "highlight2" ? "" : ""}
             className={styles.githubLink}
           >
             <Github size={15} color="#181717" />
-          </Link> 
+          </Link>  */}
         </div>
       </div>
 

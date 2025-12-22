@@ -21,10 +21,20 @@
 .projectsGrid {
   display: grid;
   grid-template-columns: repeat(3, minmax(250px, 1fr));
-  padding-top: 40px;
+  padding-top: 60px;
   gap: 30px 20px;
   width: 100%;
   margin-bottom: 100px;
+}
+@media (max-width: 930px) {
+  .projectsGrid {
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+  }
+}
+@media (max-width: 600px) {
+  .projectsGrid {
+    grid-template-columns: 1fr;
+  }
 }
 .projectCard {
   background-color: #EDA35A;

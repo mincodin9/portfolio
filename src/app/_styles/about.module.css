@@ -27,6 +27,11 @@
   display:flex;
   color: #B0CE88;
 }
+@media (max-width: 780px){
+  .aboutContent {
+    flex-direction: column;
+  }
+}
 .aboutImage {
   min-width: 250px;
   height: 350px;
@@ -45,6 +50,11 @@
   text-align: left;
   font-size: 1.1rem;
   color: #B0CE88;
+}
+@media (max-width: 780px) {
+  .aboutText {
+    padding: 20px 0px 0px 0px;
+  }
 }
 .aboutIntroText {
   margin-bottom: 20px;

@@ -4,6 +4,11 @@
   display: flex;
   flex-direction: row;
 }
+@media (max-width: 780px){
+  .experienceTabsSection {
+    flex-direction: column;
+  }
+}
 .tabList {
   display: flex;
   flex-direction: column;

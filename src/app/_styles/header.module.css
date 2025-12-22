@@ -3,10 +3,9 @@
   height: 50px;
   display: inline-flex;
   align-items: center;
-  justify-content: space-between;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  flex-flow: row nowrap;
+  justify-content: center;
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -25,7 +24,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 80vw;
   text-align: justify;
 }
 .mainPage .contactInfo{
@@ -40,6 +39,11 @@
   background: none;
   border: none;
   cursor: pointer;
+}
+@media (max-width: 650px){
+.mainButton {
+    display: none;
+  }
 }
 .mainButton:hover {
   color: #EDA35A;

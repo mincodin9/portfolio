@@ -27,4 +27,5 @@
   justify-content: space-between;
   background-color: var(--foreground);
   padding: 0px 60px;
+  overflow-x: hidden;
 }

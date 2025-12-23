@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio Website
+by Sumin Lee
 
-## Getting Started
+![Portfolio Preview](./assets/portfolio-preview.png)
 
-First, run the development server:
+## Overview
+This is my personal portfolio website built to present my projects, experience,
+and approach to front-end development in a clear and interactive way.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Rather than focusing on static layouts, I aimed to create a site that feels alive,
+while keeping the structure simple and readable.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Live Site
+https://suminlee-portfolio.vercel.app/
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Key Sections
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Header / Navigation**
+  - Simple and consistent navigation structure
+  - Responsive layout across screen sizes
 
-## Learn More
+- **Hero Section**
+  - Interactive canvas-based wave animation
+  - Subtle character movement reacting to user input
 
-To learn more about Next.js, take a look at the following resources:
+- **About Section**
+  - Brief personal introduction and background
+  - Clean layout focused on readability
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Experience Section**
+  - Overview of development experience and training
+  - Emphasis on practical projects and responsibilities
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Projects Section**
+  - Highlight cards with slide-based transitions
+  - Clear presentation of individual projects and roles
 
-## Deploy on Vercel
+## Interaction & Motion
+- Canvas-based wave animation using the HTML Canvas API
+- Time-based animation loop with `requestAnimationFrame`
+- Slide animations for project highlight cards
+- Smooth easing and motion to avoid abrupt transitions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## What I Focused On
+- Building a portfolio that communicates clearly within a few seconds
+- Keeping animations subtle and intentional, not decorative
+- Structuring components so that interactions don’t complicate the layout
+- Writing readable code with clear intent
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tech Stack
+- React (Next.js)
+- TypeScript
+- HTML Canvas API
+- CSS Modules
+
+## Notes
+This portfolio is an evolving project.
+Some features are intentionally minimal to keep the focus on structure,
+interaction, and clarity rather than visual complexity.

@@ -1,9 +1,13 @@
 import styles from "../_styles/hero.module.css"
+import WaveCanvas from "./WaveCanvas";
+
 export default function Hero() {
   return(
     <section id="home" className={styles.heroSection}>
       <div className={styles.container}>
-        <div className={styles.canvasAnimation}></div>
+        <div className={styles.canvasAnimation}>
+          <WaveCanvas />
+        </div>
         <div className={styles.title}>
           <span className={styles.greeting}>Hi, I'm </span>
           <span className={styles.titleName}>Sumin</span>

@@ -20,7 +20,7 @@ export default function Projects() {
               <div className={styles.OverlayHeader}>
                 <span className={styles.projectTitle}>Portfolio</span>
                 <Link
-                  href="https://github.com/mincodin9"
+                  href="https://github.com/mincodin9/portfolio"
                   className={styles.githubLink}
                 >
                   <Github size={15} color="#181717" />

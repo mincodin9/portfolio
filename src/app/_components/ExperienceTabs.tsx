@@ -54,25 +54,24 @@ export default function ExperienceTabs() {
               className={styles.tabPanelContentWrapper}
             >
               <p className={styles.tabPanelContent}>
-                Gained hands-on experience working with backend systems 
-                and web applications in real-world development environments.
+                Worked on backend systems and web applications in real-world production environments.
               </p>
               <ul className={styles.tabPanelList}>
                 <li className={styles.tabPanelListItem}>
-                  Worked with Java and C# to modify and maintain backend application logic  
+                  Maintained and modified backend application logic using Java and C#
                 </li>
                 <li className={styles.tabPanelListItem}>
-                  Contributed to existing application updates, focusing on functionality and stability
+                  Contributed to production system updates with a focus on stability and functionality
                 </li>
                 <li className={styles.tabPanelListItem}>
-                  Implemented HTML/CSS-based UI adjustments for internal tools  
+                  Implemented HTML/CSS-based UI adjustments for internal tools
                 </li>
                 <li className={styles.tabPanelListItem}>
-                  Acquired basic knowledge of networking and hardware concepts through practical exposure
+                  Collaborated within an existing codebase in an industrial system environment
                 </li>
               </ul>
               <p className={styles.tabPanelContent}>
-                This experience helped me understand how real production systems 
+                This experience strengthened my understanding of how production systems 
                 are structured and how developers collaborate within existing codebases.
               </p>
             </div>

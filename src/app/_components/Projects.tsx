@@ -15,7 +15,7 @@ export default function Projects() {
         </div>
         <div className={styles.projectsGrid}>
           <div className={styles.projectCard}>
-            <img src="/portfolio.png" alt="Project One Screenshot" />
+            <img src="/screenshots/portfolio.png" alt="Project One Screenshot" />
             <div className={styles.projectOverlay}>
               <div className={styles.OverlayHeader}>
                 <span className={styles.projectTitle}>Portfolio</span>

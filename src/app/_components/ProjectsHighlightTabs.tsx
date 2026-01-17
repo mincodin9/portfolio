@@ -11,7 +11,7 @@ export default function ProjectsHighlightTabs() {
   const baseId = useId();
 
   const highlights = [
-  { id: "seize-the-day", bg: "/screenshots/seize-the-day.png", title: "Seize the Day", desc: "Plan your day → See your week", stack: "React Native(Expo), TypeScrip, AsyncStorage", linkGit: "https://github.com/mincodin9/seize-the-day", linkYoutube: "", apk: "/apk/seize-the-day.apk" },
+  { id: "seize-the-day", bg: "/screenshots/seize-the-day.png", title: "Seize the Day", desc: "Plan your day → See your week", stack: "React Native(Expo), TypeScrip, AsyncStorage", linkGit: "https://github.com/mincodin9/seize-the-day", linkYoutube: "https://www.youtube.com/watch?v=TwVGjDoBwBs", apk: "/apk/seize-the-day.apk" },
   { id: "highlight2", bg: "/highlight2.png", title: "Project Highlight", desc: "Project Highlight Two is coming soon!", stack: "Not decided yet", linkGit: "", linkYoutube: "", apk: "" },
   { id: "highlight3", bg: "/highlight3.png", title: "Project Highlight", desc: "Project Highlight Three is coming soon!", stack: "Not decided yet", linkGit: "", linkYoutube: "", apk: "" },
 ];

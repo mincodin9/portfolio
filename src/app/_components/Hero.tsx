@@ -23,7 +23,7 @@ export default function Hero() {
         </div>
         <div className={styles.ctaButtons}>
           <a href="#projects" className={styles.ctaButtonPrimary}>See My Work</a>
-          <a href="/test_resume.pdf" className={styles.ctaButtonSecondary}>Resume</a>
+          <a href="/resume.pdf" className={styles.ctaButtonSecondary}>Resume</a>
         </div>
       </div>
     </section>

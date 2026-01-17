@@ -24,7 +24,7 @@ export default function NavContact() {
         <Notebook size={20} color="#628141" />
       </Link>
       <Link
-        href="/test_resume.pdf"
+        href="/resume.pdf"
         className={styles.contactButton}
       >
         <div className={styles.contactButtonDetail}>
